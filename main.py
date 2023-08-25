@@ -1,7 +1,7 @@
 import scratchattach as scratch3
 import time
 from random import randint
-session = scratch3.login("msgBOT", "Arbals")
+session = scratch3.login("Arbal1", "Arbals")
 print(session.session_id)
 while True:
   user = session.connect_user("griffpatch")
