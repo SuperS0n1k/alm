@@ -5,6 +5,6 @@ print(session.session_id)
 iteratons = 1
 while True:
   user = session.connect_user("griffpatch")
-  user.post_comment("Become A Follower. Be Part of The Movement. This message has been delivered " + str(iteratons) + " times")
+  user.post_comment("This is an unofficial Scratch Test. This message has been delivered " + str(iteratons) + " times. ⏶ Please do not report this comment ⏶")
   iteratons = iteratons + 1
   time.sleep(1)
