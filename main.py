@@ -1,5 +1,5 @@
 import scratchattach as scratch3
-
+import time
 session = scratch3.login("Arbal1", "Arbals")
 print(session.session_id)
 iteratons = 1
