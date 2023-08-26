@@ -3,12 +3,20 @@ import time
 from random import randint
 
 '''print(session.session_id)'''
-while True:
-  session = scratch3.login("Flinga1", "Flingas")
-  user = session.connect_user("griffpatch")
-  user.post_comment(content=randint(0,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-  time.sleep(0.1)
-  session = scratch3.login("Flinga2", "Flingas")
-  user = session.connect_user("griffpatch")
-  user.post_comment(content=randint(0,999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999))
-  time.sleep(0.1)
+
+targ = "HarrisonGamez"
+session = scratch3.login("qseft1", "qsefts")
+user = session.connect_user(targ)
+user.follow()
+session = scratch3.login("qseft2", "qsefts")
+user = session.connect_user(targ)
+user.follow()
+session = scratch3.login("qseft3", "qsefts")
+user = session.connect_user(targ)
+user.follow()
+session = scratch3.login("qseft4", "qsefts")
+user = session.connect_user(targ)
+user.follow()
+session = scratch3.login("qseft5", "qsefts")
+user = session.connect_user(targ)
+user.follow()
